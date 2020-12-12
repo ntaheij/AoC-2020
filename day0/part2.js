@@ -4,7 +4,7 @@ var start = Date.now();
 
 fs.readFile('./input.txt', function(err, data) {
     if(err) throw err;
-    var array = data.toString();
+    var array = data.toString().split(/\r?\n/);
     
 
     var amount = 0;
