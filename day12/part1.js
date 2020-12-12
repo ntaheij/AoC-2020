@@ -15,8 +15,6 @@ fs.readFile('input.txt', function(err, data) {
     let facing = 'E';
     let x = 0;
     let y = 0;
-    let xW = 10;
-    let yW = -1;
 
     function runScript(dir,nb){
         switch(dir){
